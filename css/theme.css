@@ -15,7 +15,6 @@ body{
   background-color: #263238;
   color: #eceff1;
   position: fixed;
-  z-index: 1;
   top: 0px;
   left: 0px;
 }
@@ -39,7 +38,6 @@ body{
 .active, .sidebar ul a li:hover{
   background-color: #546e7a;
 }
-
 
 @media screen and (max-width: 400px) {
       .sidebar{
