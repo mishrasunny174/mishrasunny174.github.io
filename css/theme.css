@@ -25,19 +25,21 @@ body{
 }
 
 .sidebar ul li {
-  padding: 10px 13px;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 10px 13px;
 }
 
 .sidebar ul li a{
   text-decoration: none;
   color: inherit;
+  padding: 10px 13px;
 }
 
-.sidebar ul li:hover{
+.active, .sidebar ul li:hover{
   background-color: #546e7a;
 }
+
 
 @media screen and (max-width: 400px) {
       .sidebar{
