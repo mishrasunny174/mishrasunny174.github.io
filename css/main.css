@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  color: #FFFFFF;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#navbar{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#name a{
+  width: 25%;
+  font-size: 1.2em;
+  margin-left: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#dummy{
+  margin-left: auto;
+}
+
+#nav-links{
+  width: 60%;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.nav-link{
+  padding: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover{
+  color: #D84315;
+  transition: 0.5s;
+}
+
+#main {
+  text-align: center;
+  color: #FFF3E0;
+  font-size: 2em;
+  width: 60%;
+  margin: 200px auto;
+  height: 55vh;
+}
+
+#contact{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  min-height: 55vh;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-links{
+  font-size: 4em;
+  width: 15%;
+  min-width: 100px;
+}
+
+.contact-links a{
+  color: inherit;
+}
+
+#contact-header{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  padding-top: 40px;
+}
+
+#contact-header h1 {
+  font-size: 2.5em;
+}

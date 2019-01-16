@@ -1,4 +1,0 @@
-function loadHome()
-{
-    alert("test");
-}
