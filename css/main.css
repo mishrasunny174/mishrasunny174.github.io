@@ -42,6 +42,7 @@ html, body{
   font-size: 1.2em;
   margin-left: auto;
   transition: 0.5s;
+  display: initial;
 }
 
 .nav-link{
