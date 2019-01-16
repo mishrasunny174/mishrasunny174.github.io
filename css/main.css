@@ -10,6 +10,14 @@ html, body{
   background-attachment: fixed;
 }
 
+#nav-toggle-button{
+  visibility: hidden;
+}
+
+#nav-toggle-button a {
+  font-size: 1.5em;
+}
+
 #navbar{
     display: inline-flex;
     width: 100%;
@@ -27,15 +35,13 @@ html, body{
   color: inherit;
 }
 
-#dummy{
-  margin-left: auto;
-}
-
 #nav-links{
   width: 60%;
   text-align: right;
   margin-right: 10px;
   font-size: 1.2em;
+  margin-left: auto;
+  transition: 0.5s;
 }
 
 .nav-link{
@@ -99,11 +105,31 @@ html, body{
     position: initial;
   }
 
+  #mobile-header {
+    display: inline-flex;
+  }
+
+  #name {
+    width: 30%;
+  }
+
+  #nav-toggle-button {
+    visibility: visible;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+
+
+  #nav-toggle-button a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   #nav-links{
-    width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     text-align: center;
+    margin: auto;
   }
 
   #name {
@@ -112,9 +138,4 @@ html, body{
   .nav-link{
     padding: 10px 0px;
   }
-
-  #dummy {
-    margin: 0px;
-  }
-
 }
