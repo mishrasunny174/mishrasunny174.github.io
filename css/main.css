@@ -91,3 +91,31 @@ html, body{
 #contact-header h1 {
   font-size: 2.5em;
 }
+
+@media screen and (max-width: 800px) {
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    position: initial;
+  }
+
+  #nav-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-link{
+    padding: 10px 0px;
+  }
+
+  #name {
+    visibility: hidden;
+  }
+
+  #dummy {
+    margin: 0px;
+  }
+
+}
