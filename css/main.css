@@ -35,7 +35,7 @@ html, body{
   color: inherit;
 }
 
-#nav-links{
+.normal-nav-links{
   width: 60%;
   text-align: right;
   margin-right: 10px;
@@ -99,6 +99,12 @@ html, body{
   font-size: 2.5em;
 }
 
+.dropdown-nav-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 @media screen and (max-width: 800px) {
   #navbar{
     display: flex;
@@ -128,11 +134,8 @@ html, body{
     color: inherit;
   }
 
-  #nav-links{
+  .normal-nav-links{
     display: none;
-    flex-direction: column;
-    text-align: center;
-    margin: auto;
   }
 
   #name {
