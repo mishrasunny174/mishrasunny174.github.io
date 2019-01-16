@@ -106,12 +106,11 @@ html, body{
     text-align: center;
   }
 
+  #name {
+    text-align: center;
+  }
   .nav-link{
     padding: 10px 0px;
-  }
-
-  #name {
-    visibility: hidden;
   }
 
   #dummy {
