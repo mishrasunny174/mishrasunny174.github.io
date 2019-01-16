@@ -111,6 +111,8 @@ html, body{
 
   #name {
     width: 70%;
+    text-align: left;
+    padding-left: 10px;
   }
 
   #nav-toggle-button {
@@ -133,7 +135,7 @@ html, body{
   }
 
   #name {
-    text-align: center;
+    text-align: left;
   }
   .nav-link{
     padding: 10px 0px;
