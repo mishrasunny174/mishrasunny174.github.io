@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-html, body{
+html,
+body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   color: #FFFFFF;
@@ -11,7 +12,7 @@ html, body{
   scroll-behavior: smooth;
 }
 
-#nav-toggle-button{
+#nav-toggle-button {
   visibility: hidden;
 }
 
@@ -19,16 +20,16 @@ html, body{
   font-size: 1.5em;
 }
 
-#navbar{
-    display: inline-flex;
-    width: 100%;
-    padding: 10px 0px;
-    position: fixed;
-    top: 0px;
-    background-color: rgba(0,0,0,0.4);
+#navbar {
+  display: inline-flex;
+  width: 100%;
+  padding: 10px 0px;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-#name a{
+#name a {
   width: 25%;
   font-size: 1.2em;
   margin-left: 10px;
@@ -36,7 +37,7 @@ html, body{
   color: inherit;
 }
 
-.normal-nav-links{
+.normal-nav-links {
   width: 60%;
   text-align: right;
   margin-right: 10px;
@@ -46,13 +47,13 @@ html, body{
   display: initial;
 }
 
-.nav-link{
+.nav-link {
   padding: 0 10px;
   text-decoration: none;
   color: inherit;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #D84315;
   transition: 0.5s;
 }
@@ -65,48 +66,89 @@ html, body{
   padding-top: 200px;
   padding-bottom: 200px;
   margin: auto;
-  height: 55vh;
+  min-height: 100vh;
 }
 
-#contact{
+#contact {
   display: flex;
   width: 100%;
   margin: auto;
-  min-height: 55vh;
   text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+#projects {
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+#project-links {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.contact-links{
+#projects-header {
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+.contact-links {
   font-size: 4em;
   width: 15%;
   min-width: 100px;
 }
 
-.contact-links a{
+.contact-links a {
   color: inherit;
 }
 
-#contact-header{
+#contact-header {
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   margin-top: 0px;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 #contact-header h1 {
   font-size: 2.5em;
 }
 
+#footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-link {
+  width: 40%;
+  padding: 50px 10px;
+  text-align: center;
+  border: 1px solid white;
+  margin: 10px 0px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link:hover {
+  background-color: rgba(255, 255, 255, 0.30);
+}
+
 @media screen and (max-width: 800px) {
-  #navbar{
+  #navbar {
     display: flex;
     flex-direction: column;
-    position: initial;
+    /* position: initial; */
   }
 
   #mobile-header {
@@ -141,18 +183,23 @@ html, body{
     color: inherit;
   }
 
-  .normal-nav-links{
+  .normal-nav-links {
     display: none;
   }
 
   #name {
     text-align: left;
   }
-  .nav-link{
+
+  .nav-link {
     padding: 10px 0px;
   }
 
   #main {
     padding-top: 50px;
+  }
+
+  .project-link{
+    font-size: 1em;
   }
 }
