@@ -62,7 +62,9 @@ html, body{
   color: #FFF3E0;
   font-size: 2em;
   width: 60%;
-  margin: 200px auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: auto;
   height: 55vh;
 }
 
@@ -100,12 +102,6 @@ html, body{
   font-size: 2.5em;
 }
 
-.dropdown-nav-links {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 @media screen and (max-width: 800px) {
   #navbar{
     display: flex;
@@ -115,6 +111,16 @@ html, body{
 
   #mobile-header {
     display: inline-flex;
+  }
+
+  .dropdown-nav-links {
+    display: flex !important;
+  }
+
+  .normal-nav-links {
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
   }
 
   #name {
@@ -144,5 +150,9 @@ html, body{
   }
   .nav-link{
     padding: 10px 0px;
+  }
+
+  #main {
+    padding-top: 50px;
   }
 }
