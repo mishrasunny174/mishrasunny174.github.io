@@ -37,6 +37,11 @@ body {
   color: inherit;
 }
 
+#name a:hover{
+  color: #D84315;
+  transition: 0.5s;
+}
+
 .normal-nav-links {
   width: 60%;
   text-align: right;
