@@ -64,9 +64,9 @@ body {
   font-size: 2em;
   width: 60%;
   padding-top: 200px;
-  padding-bottom: 200px;
   margin: auto;
   min-height: 100vh;
+  line-height: 2em;
 }
 
 #contact {
@@ -163,6 +163,10 @@ body {
     text-align: center;
     flex-direction: column;
     margin: auto;
+  }
+
+  #main {
+    line-height: inherit;
   }
 
   #name {
