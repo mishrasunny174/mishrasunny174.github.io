@@ -109,6 +109,11 @@ body {
   min-width: 100px;
 }
 
+.contact-links:hover{
+  color: #D84315;
+  transition: 0.5s;
+}
+
 .contact-links a {
   color: inherit;
 }
@@ -135,7 +140,7 @@ body {
   width: 40%;
   padding: 50px 10px;
   text-align: center;
-  border: 1px solid white;
+  border: 2px solid white;
   margin: 10px 0px;
   transition: 0.5s;
   text-transform: uppercase;
@@ -146,7 +151,10 @@ body {
 }
 
 .project-link:hover {
-  background-color: rgba(255, 255, 255, 0.30);
+  color: #D84315;
+  border-color: #D84315;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 @media screen and (max-width: 800px) {
